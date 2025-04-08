@@ -33,3 +33,15 @@ htmlcov/
 .cache
 coverage.xml
 *.cover
+
+# Spotify & YouTube Music auth
+headers_auth.json
+browser.json
+.spotify_token.json
+
+# LangChain & OpenAI cache/token (optional)
+.cache/
+*.log
+
+# Streamlit
+.streamlit/
