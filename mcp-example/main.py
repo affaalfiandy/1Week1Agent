@@ -6,7 +6,7 @@ async def main():
     async with make_graph() as agent:
         response1 = await agent.ainvoke({
             "messages": [
-                {"role": "user", "content": "Buatkan file hasil dari 100*80*71*7+87"}
+                {"role": "user", "content": "Create file for me to save result print This code works"}
             ]
         })
 
